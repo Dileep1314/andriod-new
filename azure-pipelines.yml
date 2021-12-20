@@ -8,10 +8,11 @@ trigger:
 
 pool:
   name: dileep-agent
+
+steps:
 - task: CmdLine@2
   inputs:
     script: 'yarn install'
-steps:
 - task: Gradle@2
   inputs:
     workingDirectory: ''
