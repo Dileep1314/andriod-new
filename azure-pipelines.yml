@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: dileep-agent
+  vmImage: "macos-latest"
 
 steps:
 - task: CmdLine@2
